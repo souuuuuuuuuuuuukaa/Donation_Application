@@ -1,0 +1,49 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "Gateway"
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+
+
+
+
+
+
+
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: r1
+#          uri: lb://USER_MS
+#          predicates:
+#            - Path=/users/**
+#        - id: r2
+#          uri: lb://ORG_MS
+#          predicates:
+#            - Path=/organizations/**
+
+#        - id: r1
+#          uri: http://localhost:8082/
+#          predicates:
+#            - Path= /users/**
+#        - id: r2
+#          uri: http://localhost:8081/
+#          predicates:
+#            - Path= /organizations/**
+
+# configuration static
+
+
+
+#spring:
+#  cloud:
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true
