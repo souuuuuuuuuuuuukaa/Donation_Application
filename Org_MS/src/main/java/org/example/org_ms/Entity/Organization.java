@@ -19,6 +19,6 @@ public class Organization {
     private String name;
     private String address;
 
-    @OneToMany(mappedBy = "organization", cascade = CascadeType.ALL)
-    private List<Donation> donations;
+    /*@OneToMany(mappedBy = "organization", cascade = CascadeType.ALL)
+    private List<Donation> donations;*/
 }

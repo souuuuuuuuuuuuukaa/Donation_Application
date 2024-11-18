@@ -23,6 +23,6 @@ public class Users {
     private String prenom;
     private String Email;
 
-    @OneToMany(mappedBy = "donor", cascade = CascadeType.ALL)
-    private List<Donation> donations;
+    /*@OneToMany(mappedBy = "donor", cascade = CascadeType.ALL)
+    private List<Donation> donations;*/
 }

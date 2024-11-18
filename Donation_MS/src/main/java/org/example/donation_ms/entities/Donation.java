@@ -20,11 +20,12 @@ public class Donation {
     Long id;
     Double amount;
     LocalDate Date;
-
+/*
     @ManyToOne
     @JoinColumn(name = "donor_id", nullable = false)
     private Users donor;
     @ManyToOne
     @JoinColumn(name = "organization_id", nullable = false)
     private Organization organization;
+    */
 }
